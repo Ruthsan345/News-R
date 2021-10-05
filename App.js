@@ -7,8 +7,8 @@ import Router from './app/config/routes'
 import store from './app/redux/store';
 
 LogBox.ignoreLogs([
-    "Your project is accessing the following APIs from a deprecated global rather than a module import: Constants (expo- constants).",
-  ]);
+    "Your project is accessing the following APIs from a deprecated global rather than a module import: Constants",
+  ]); 
 
 export default class App extends Component {
     render() {
